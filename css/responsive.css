@@ -1,0 +1,383 @@
+@media (max-width: 1200px) {
+  header .container nav {
+    margin-left: 4rem;
+  }
+
+  .plataforma .container .solucoes {
+    gap: 2rem;
+  }
+
+  .plataforma .container .solucoes .img {
+    max-width: 42rem;
+    height: 42rem;
+  }
+
+  .quanto-custa .container .info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header .container .menu-mobile {
+    display: block;
+  }
+
+  header .container .menu-mobile img {
+    max-width: 3.8rem;
+  }
+
+  .home .container .info h1 {
+    line-height: 4.4rem;
+  }
+
+  .home .container .info strong,
+  .plataforma .container .info h2,
+  .plataforma .container .info strong,
+  .recursos .container .info h2,
+  .recursos .container .info strong,
+  .quem-vende .container .info h2,
+  .quem-vende .container .info strong,
+  .quanto-custa .container .info h2,
+  .quanto-custa .container .info strong {
+    font-size: 3.6rem;
+  }
+
+  .home .container .info .info-description {
+    font-size: 2rem;
+  }
+
+  .plataforma .container .solucoes {
+    display: none;
+  }
+
+  .plataforma .container .solucoes2 {
+    display: block;
+  }
+
+  .recursos .container .integracao {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4.8rem;
+  }
+
+  .recursos .container .integracao .funcoes {
+    width: 50%;
+    max-width: 29rem;
+  }
+
+  .quem-vende .container .exemplos {
+    flex-direction: column;
+  }
+
+  .quem-vende .container .exemplos .info-ex {
+    order: 2;
+  }
+
+  .quem-vende .container .exemplos .opcao {
+    flex-direction: row;
+    order: 1;
+  }
+
+  .quem-vende .container .exemplos .opcao h3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 0.1rem solid var(--cor-branca);
+    border-radius: 5rem;
+  }
+
+  .quem-vende .container .exemplos .opcao h3:first-child {
+    border: 0.1rem solid var(--cor-verde);
+  }
+
+  .quem-vende .container .exemplos .opcao h3:last-child {
+    border: none;
+  }
+
+  .quanto-custa {
+    background-position: center top -150px;
+  }
+
+  .quanto-custa .container {
+    flex-direction: column;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .quanto-custa .container .info {
+    align-items: center;
+    max-width: 55.4rem;
+    margin-bottom: 7.76rem;
+  }
+
+  .quanto-custa .container .info h2,
+  .quanto-custa .container .info p {
+    text-align: center;
+  }
+
+  .quanto-custa .container .info h2 {
+    line-height: 4.5rem;
+  }
+
+  .quanto-custa .container .info div {
+    display: none;
+  }
+
+  .quanto-custa .container .fatura {
+    display: flex;
+    width: 100%;
+  }
+
+  .quanto-custa .container .fatura h4,
+  .quanto-custa .container .fatura p {
+    text-align: center;
+  }
+
+  .criar-conta {
+    background-size: contain;
+  }
+
+  .criar-conta .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .criar-conta .container h2,
+  .criar-conta .container strong {
+    font-size: 3.6rem;
+  }
+
+  .criar-conta .container a {
+    max-width: 100%;
+  }
+
+  footer .container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  footer .container .info {
+    flex-direction: column;
+  }
+
+  footer .container .info .copy {
+    display: none;
+  }
+
+  footer .container .copy.hidden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.8rem;
+  }
+
+  footer .container .redes-sociais .copy.hidden p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  footer .container .info .mapa nav {
+    order: 1;
+    flex-direction: column;
+  }
+
+  footer .container .info .mapa nav > div {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  footer .container .info .mapa nav > div:nth-child(4) {
+    order: 1;
+    max-width: 100%;
+  }
+
+  footer .container .info .mapa nav > div:last-child {
+    order: 2;
+  }
+
+  footer .container .info .mapa nav > div:first-child {
+    order: 3;
+  }
+
+  footer .container .info .mapa nav > div:nth-child(2) {
+    order: 4;
+  }
+
+  footer .container .info .mapa nav > div:nth-child(3) {
+    order: 5;
+  }
+
+  footer .container .info .mapa nav > div h6 {
+    font-size: 2.4rem;
+  }
+
+  footer .container .info .mapa nav > div ul {
+    text-align: center;
+  }
+
+  footer .container .redes-sociais {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4.88rem;
+    border-bottom: 0.1rem solid var(--cor-verde-lodo);
+    gap: 4.5rem;
+  }
+
+  footer .container .redes-sociais .links {
+    flex-direction: column;
+  }
+
+  footer .container .redes-sociais > p {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 8rem;
+  }
+  header .container img {
+    max-width: 15rem;
+  }
+
+  .home .container {
+    flex-direction: column;
+    padding-left: 5.6rem;
+    padding-right: 5.6rem;
+    padding-bottom: 4rem;
+  }
+
+  .home .container .info {
+    max-width: 100%;
+  }
+
+  .home .container .info > p:last-child {
+    display: none;
+  }
+
+  .home .container .info a {
+    max-width: 100%;
+  }
+
+  .home .container .img {
+    margin-top: 2rem;
+  }
+
+  .recursos .container .integracao {
+    justify-content: flex-start;
+    padding: 0 2rem;
+  }
+
+  .quem-vende .container .exemplos {
+    margin-bottom: 8rem;
+  }
+
+  .recursos .container .integracao .funcoes {
+    width: 100%;
+  }
+
+  .quem-vende .container .exemplos .info-ex {
+    height: 100%;
+    gap: 2rem;
+  }
+
+  .quem-vende .container .exemplos .info-ex .texto {
+    gap: 1rem;
+  }
+
+  .quem-vende .container .exemplos .info-ex > img {
+    max-width: 25rem;
+    height: 25rem;
+    border-radius: 0.6rem;
+  }
+
+  .quem-vende .container .exemplos .info-ex .texto h3:nth-child(2) {
+    font-size: 1.5rem;
+  }
+
+  .quem-vende .container .exemplos .info-ex .texto p {
+    font-size: 1.2rem;
+  }
+
+  .quem-vende .container .exemplos .opcao {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .quem-vende .container .exemplos .opcao h3 {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+  }
+
+  .quanto-custa .container .taxa {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 2.4rem;
+  }
+
+  .quanto-custa .container .taxa .lucro {
+    flex-direction: column;
+  }
+
+  .quanto-custa .container .taxa .lucro .box {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  header .container .menu-mobile img {
+    display: block;
+    max-width: 2.2rem;
+  }
+
+  .apoio .container .company {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 585px) {
+  .quem-vende .container .exemplos .info-ex {
+    flex-direction: column;
+  }
+  .quem-vende .container .exemplos .info-ex > img {
+    max-width: 100%;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .container {
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+  }
+
+  .home .container .info h1 {
+    font-size: 3.1rem;
+    line-height: 3.5rem;
+  }
+
+  .home .container .info strong {
+    font-size: 3.1rem;
+  }
+
+  .home .container .info .info-description {
+    font-size: 1.7rem;
+  }
+
+  .quanto-custa .container .taxa {
+    padding: 0 0.1rem;
+  }
+}
